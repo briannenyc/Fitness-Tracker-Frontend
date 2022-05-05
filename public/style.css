@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  background-color: #ececec;
+}
+
+.logo   {
+    padding-left: 2em;
+}
+
+.logo-text{
+    font-size: 1.5em;
+}
+
+.menubar    {
+    width: 45%;
+}
