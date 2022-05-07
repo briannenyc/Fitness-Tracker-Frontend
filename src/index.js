@@ -9,12 +9,7 @@ import { App} from "./components";
 const app = document.getElementById("app");
 
 
-ReactDOM.render(
-
-
- 
+ReactDOM.render( 
       <App />,
-
-
   app
 );

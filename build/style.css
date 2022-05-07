@@ -1,16 +1,4 @@
 * {
-	border: 0;
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
-
-.RoutineCard, .ActivityCard, #CreateRoutineForm, #CreateActivityForm, .CreateRoutine{
-    max-width: 80%;
-    margin-left: 10%;
-
-/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -101,13 +89,13 @@ ul {
     display: none; 
 }
 
-/* .layer1, .layer2, .layer3   {
+.layer1, .layer2, .layer3   {
     background: black;
     height: 4px;
     margin-top: 4px;
     width: 100%;
     border-radius: 10px;
-} */
+}
 
 .section1   {
     
@@ -118,10 +106,10 @@ ul {
     left: 0;
     z-index: -1;
     /* Update the backgound picture above */
-} */
+}
 
 
-/* .section1 .banner   {
+.section1 .banner   {
     height: 170px;
     width: 600px;
     background: gray;
@@ -136,9 +124,9 @@ ul {
     align-items: center;
     font-family: sans-serif;
     z-index: 8;
-} */
+}
 
-/* .banner h1{
+.banner h1{
     font-size: 2 em;
 }
 
@@ -155,11 +143,11 @@ ul {
 
 .banner a:hover { 
     background: #d4761e;
-} */
+}
 
-/* 
+
 .menu-sidebar   {
-    display: flex;
+    display: none;
 }
 
 .cart-sidebar   {
@@ -183,9 +171,9 @@ ul {
        font-size: 1.3em;
        padding: 1em;
        cursor: pointer;
-   } */
+   }
 
-   /* .fa-times    {
+   .fa-times    {
        margin-top: 0.5em;
    }
 
@@ -210,9 +198,9 @@ ul {
        align-items: center;
        margin-left: 1em;
        height: 80px;
-   } */
+   }
 
-   /* .plus-minus  {
+   .plus-minus  {
        display: flex;
        transform: rotate(90eg);
        color: orangered;
@@ -242,9 +230,9 @@ ul {
        border: 1px solid orangered;
        background: transparent;
        color: black; 
-   } */
+   }
 
-   /* .overlay {
+   .overlay {
        height: 100vh;
        position: fixed;
        top: 0;
@@ -255,9 +243,9 @@ ul {
 
    .none    {
        display: none;
-   } */
+   }
 
-   /* @media screen and (max-width:768px)  {
+   @media screen and (max-width:768px)  {
        .logo    {
            padding-left: 0;
        }
@@ -339,7 +327,7 @@ ul {
            .burger  {
                margin-left: 1em;
                display: block;
-               width: 0;
+               width: ;
            }
 
            .product {
@@ -354,6 +342,6 @@ ul {
 
 
     }
-    */
+   
 
 
