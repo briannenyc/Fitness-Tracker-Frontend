@@ -1,0 +1,69 @@
+{
+    "items:":[
+      {
+        "sys": { "id": "1" },
+        "fields": {
+          "title": "Title of first product",
+          "price": 123.99,
+          "image": { "fields": { "file": { "url": "images/product1.png" } } }
+        }
+      },
+      {
+        "sys": { "id": "2" },
+        "fields": {
+          "title": "Title of second product",
+          "price": 123.99,
+          "image": { "fields": { "file": { "url": "images/product2.png" } } }
+        }
+      },
+      {
+        "sys": { "id": "3" },
+        "fields": {
+          "title": "Title of third product",
+          "price": 123.99,
+          "image": { "fields": { "file": { "url": "images/product3.png" } } }
+        }
+      },
+      {
+        "sys": { "id": "4" },
+        "fields": {
+          "title": "Title of fourth product",
+          "price": 123.99,
+          "image": { "fields": { "file": { "url": "images/product4.png" } } }
+        }
+      },
+      {
+        "sys": { "id": "5" },
+        "fields": {
+          "title": "Title of first product",
+          "price": 123.99,
+          "image": { "fields": { "file": { "url": "images/product5.png" } } }
+        }
+      },
+      {
+        "sys": { "id": "6" },
+        "fields": {
+          "title": "Title of sixth product",
+          "price": 123.99,
+          "image": { "fields": { "file": { "url": "images/product6.png" } } }
+        }
+      },
+      {
+        "sys": { "id": "7" },
+        "fields": {
+          "title": "Title of seventh product",
+          "price": 123.99,
+          "image": { "fields": { "file": { "url": "images/product7.png" } } }
+        }
+      },
+      {
+        "sys": { "id": "8" },
+        "fields": {
+          "title": "Title of eighth product",
+          "price": 123.99,
+          "image": { "fields": { "file": { "url": "images/product8.png" } } }
+        }
+      }
+    ]
+
+}
