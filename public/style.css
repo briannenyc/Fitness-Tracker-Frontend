@@ -5,11 +5,57 @@
 	box-sizing: border-box;
 }
 
+body {
+	height: 100vh;
+	background-image: linear-gradient(60deg, #6e22a5 0%, rgb(18, 155, 200) 100%);
+}
+ 
+/* #app {
+	overflow: hidden;
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+	
+    height: 100%;
+    width: 100%;
+	grid-gap: 8px;
+} */
 
+/* .app {
+	display: grid;
+	grid-template-rows: auto auto 1fr;
+	grid-gap: 8px;
+	height: 100%;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+}
+
+#NavBar {
+    display: grid;
+	grid-template-columns: 1fr;
+    justify-content: space-between;
+}
+
+.menu {
+    justify-self: right;
+    justify-content: space-between;
+    width: 90%
+}
 .RoutineCard, .ActivityCard, #CreateRoutineForm, #CreateActivityForm, .CreateRoutine{
     max-width: 80%;
     margin-left: 10%;
+}
 
+.loginForm {
+    max-width: 300px;
+}
+
+input { 
+    margin-top: '3px';
+    padding: '3px' 
+} */
 /* * {
   margin: 0;
   padding: 0;
@@ -35,10 +81,10 @@ ul {
   align-items: center;
   height: 10vh; 
   /* // vh = This unit is based on the height of the viewport. A value of 1vh is equal to 1% of the viewport height */
-  background-color: #ececec;
-}
+  /* background-color: #ececec;
+} */
 
-.logo   {
+/* .logo   {
     padding-left: 2em;
 }
 
@@ -65,9 +111,9 @@ ul {
 
 .list-items a:hover{
     color:black
-}
+} */
 
-.cart   {
+/* .cart   {
     padding-right: 2em;
     position: relative;
 }
@@ -89,27 +135,27 @@ ul {
 
 .number-of-items .noi{  
     font-size: 0.7em;
-}
+} */
 
-.fa-shopping-cart  {
+/* .fa-shopping-cart  {
     font-size: 1.5em;
     cursor: pointer;
-}
-.burger {
+/* 
+ .burger {
     height: 28px;
     width: 32px;
     display: none; 
 }
 
-/* .layer1, .layer2, .layer3   {
+.layer1, .layer2, .layer3   {
     background: black;
     height: 4px;
     margin-top: 4px;
     width: 100%;
     border-radius: 10px;
-} */
+} 
 
-.section1   {
+/* .section1   {
     
     height: calc(100vh - 10 vh);
     width: 100%;
@@ -117,8 +163,8 @@ ul {
     top: 0;
     left: 0;
     z-index: -1;
-    /* Update the backgound picture above */
-} */
+    Update the backgound picture above 
+}  */
 
 
 /* .section1 .banner   {
@@ -157,12 +203,12 @@ ul {
     background: #d4761e;
 } */
 
-/* 
-.menu-sidebar   {
-    display: flex;
-}
 
-.cart-sidebar   {
+/* .menu-sidebar   {
+    display: flex;
+} */
+
+/* .cart-sidebar   {
     background: #ececec;
     position: fixed;
     right: 0;
@@ -183,7 +229,7 @@ ul {
        font-size: 1.3em;
        padding: 1em;
        cursor: pointer;
-   } */
+   } */ 
 
    /* .fa-times    {
        margin-top: 0.5em;
@@ -244,18 +290,18 @@ ul {
        color: black; 
    } */
 
-   /* .overlay {
+    /* .overlay {
        height: 100vh;
        position: fixed;
        top: 0;
        left: 0;
        z-index: 9;
        width: 100%;
-   }
+   } 
 
    .none    {
        display: none;
-   } */
+   }  */
 
    /* @media screen and (max-width:768px)  {
        .logo    {
@@ -355,5 +401,3 @@ ul {
 
     }
     */
-
-
