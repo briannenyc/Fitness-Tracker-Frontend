@@ -4,7 +4,7 @@ const HomePage = ({user}) => {
   return (
 
     <main>
-        <h1>Welcome to Fitness Track.kr {user}!</h1>
+        <h1>Welcome to Fitness Tracker {user}!</h1>
     </main>
     
   );

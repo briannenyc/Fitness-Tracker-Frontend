@@ -1,5 +1,5 @@
 import React from "react";
-import UserForm from "./userForm";
+import Login from "./Login";
 
 const Users = (props) => {
   const setToken = props.setToken;
@@ -22,7 +22,7 @@ const Users = (props) => {
       </button>
     </>
   ) : (
-    <UserForm setToken={setToken} setUser={setUser}></UserForm>
+    <Login setToken={setToken} setUser={setUser}></Login>
   );
 };
 
