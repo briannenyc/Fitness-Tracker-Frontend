@@ -2,17 +2,14 @@ import React, { useState } from "react";
 import { login } from "../api";
 
 const Login = (props) => {
-  // const [username, setUsername] = useState('');
-  // const [password, setPassword] = useState('');
+const [username, setUsername] = useState('');
+const [password, setPassword] = useState('');
 
   const [hasTriggeredError, setHasTriggeredError] = useState(false);
-  const {
+  let {
     setLoggedIn,
     loggedIn,
-    username,
-    setUsername,
-    password,
-    setPassword,
+   
   } = props;
 
   const handleSubmit = async (event) => {
@@ -29,7 +26,7 @@ const Login = (props) => {
     if (didLoggedInWork === false) {
       setHasTriggeredError(true);
     } else {
-      setLoggedIn(didLoggedInWork);
+      setLoggedIn=true;
     }
   };
 
