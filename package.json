@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "react-scripts start",
     "start:fe:dev": "react-scripts start",
     "start:be:dev": "nodemon index.js",
     "build": "react-scripts build"
