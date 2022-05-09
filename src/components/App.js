@@ -1,48 +1,4 @@
-// import React, { useState } from "react";
-// import ReactDOM from "react-dom";
-// import { BrowserRouter, Route, Switch } from "react-router-dom";
-// import Navbar from "./Navbar";
-// import Routines from "./routines";
-// import MyRoutines from "./myRoutines";
-// import CreateRoutine from "./CreateRoutine";
-// import { Activities } from ".activities";
 
-
-// const App = () => {
-//   const [token, setToken] = useState(localStorage.getItem("token") || "");
-//   const [user, setUser] = useState(
-//     {
-//       id: Number(localStorage.getItem("id")),
-//       name: localStorage.getItem("username"),
-//     } || null
-//   );
-
-// const [isExampleShowing, setIsExampleShowing] = useState(false);
-
-//   return (
-//     <div>
-//       <Navbar />
-//       <Routines />
-//       <CreateRoutine />
-//       <MyRoutines />
-      
-      
-    
-
-//      <button
-//         onClick={() => {
-//           setIsExampleShowing(!isExampleShowing);
-//         }}
-//       >
-//         SHOW EXAMPLE
-//       </button> 
-//     </div>
-//   );
-// };
-
-
-
-// export default App;
 import React, { useState, useEffect } from "react";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import Routines from "./routines";
@@ -58,10 +14,6 @@ const App = () => {
   const [routines, setRoutines] = useState([]);
   const [activities, setActivities] = useState([]);
 
-  // useEffect(async () => {
-  //   const allRoutines = await getRoutines();
-  //   setRoutines(allRoutines);
-  // }, [setRoutines]);
 
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
